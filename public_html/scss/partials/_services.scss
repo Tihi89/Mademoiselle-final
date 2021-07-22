@@ -1,0 +1,111 @@
+
+.services-section{
+    margin-bottom: 111px;
+    .services-item{
+        &:nth-of-type(odd){
+            .services-img{
+                @media(min-width:768px){
+                    order: 1;   
+                }
+            }
+            .services-description{
+                background-color: $info;
+            }
+
+        }
+        .services-description{
+            @media(min-width:576px){
+                padding: 90px 60px 90px;  
+            }
+            @media(min-width:768px){
+                padding: 60px 25px 65px;  
+            }
+            @media(min-width:992px){
+                padding: 100px 60px 95px;  
+            }
+            @media(min-width:1200px){
+                padding: 143px 95px 95px;  
+            }
+            padding: 60px 40px 70px;
+            background-color: $secondary;
+
+            .services-description-title{
+                @media(min-width:576px){
+                    font-size: 30px;
+                    line-height: 35px;
+                }
+                @media(min-width:768px){
+                    font-size: 28px;
+                    line-height: 34px;
+                }
+                @media(min-width:992px){
+                    font-size: 33px;
+                    line-height: 38px;
+                }
+                @media(min-width:1200px){
+                    font-size: 36px;
+                    line-height: 44px;
+                }
+                font-family: $lato;
+                font-size: 25px;
+                line-height: 30px;
+                text-transform: uppercase;
+                margin-bottom: 36px;
+            }
+        }
+    }
+}
+
+
+//Single service page
+.single-service-section{
+    @media(min-width:576px){
+        padding-top: 50px;
+    }
+    @media(min-width:768px){
+        padding-top: 70px;
+    }
+    @media(min-width:992px){
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    @media(min-width:1200px){
+        padding-top: 170px;
+        padding-bottom: 181px;
+    }
+    padding-top: 30px;
+    padding-bottom: 50px;
+    figure{
+        margin-bottom: 20px;
+    }
+    .services-content{
+        h3{
+            @media(min-width:576px){
+                font-size: 35px;
+                line-height: 40px;
+            }
+            @media(min-width:768px){
+                font-size: 25px;
+                line-height: 30px;
+            }
+            @media(min-width:992px){
+                font-size: 35px;
+                line-height: 40px;
+            }
+            @media(min-width:1200px){
+                font-size: 44px;
+                line-height: 50px;
+            }
+            font-size: 30px;
+            line-height: 35px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 26px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+        }
+    }
+}

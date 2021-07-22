@@ -1,0 +1,65 @@
+
+
+html{
+    font-size: 10px;
+}
+$font-size-base: 1.6rem;
+
+$primary:#1e1e1e;
+$secondary: #ECD9D9;
+$info: #F5F5F5;
+
+$body-color:$primary;
+
+$grid-gutter-width: 1.2rem;
+
+$grid-breakpoints: (
+  xs: 0,
+  xm:450px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  //xxl: 1400px
+);
+
+$container-max-widths: (
+  //sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  //xxl: 1320px
+);
+
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer / 2,
+  2: $spacer,
+  3: $spacer * 1.5,
+  4: $spacer * 2,
+  5: $spacer * 2.5,
+  6: $spacer * 3,
+  7: $spacer * 3.5,
+  8: $spacer * 4,
+  9: $spacer * 4.5,
+  10: $spacer * 5,
+);
+
+
+
+$navbar-light-color: $primary;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+
+$pagination-padding-x: 15px;
+
+$input-bg: rgba(#253D61, 0.02);
+$input-height: 50px;
+$input-placeholder-color: $primary;
+$input-padding-y:  13px;
+$input-border-color: transparent;
+$input-focus-border-color:  $secondary;
+$input-focus-box-shadow:  $secondary;                                      
+$input-font-weight: 300;                    
